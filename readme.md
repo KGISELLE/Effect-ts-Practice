@@ -1,4 +1,6 @@
 ## Paso a paso practica Effect-ts
+Para realizar esta primera parte se toma como base la guia de inicio rapido encontrada en la
+[documentacion de effect-ts](https://effect.website/docs/quickstart).
 1. Crear el repositorio.
 2. Ya dentro del repositorio abrir la terminal. 
 3. Por medio de la terminar comenzar la configuracion inicial del proyecto.
