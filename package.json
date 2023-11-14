@@ -1,0 +1,19 @@
+{
+  "name": "hello-effect",
+  "version": "1.0.0",
+  "description": "1. Creara el repositorio\r 2. Ya dentro del repositorio abrir la terminal \r 3. Por medio de la terminar comenzar la configuracion inicial del proyecto\r 4. Crear el archivo package.json con el siguiente comando, digitandolo en la terminal:\r     ```\r     npx init -y\r     ```\r 5. Instalar Typescript\r     ```\r     npx install typescript\r     ```\r 6. inicializar TypeScript en el proyecto\r     ```\r     npx tsc --init\r     ```\r     Esto crea un archivo `tsconfig.json`, el cual contiene la configuracion de TS. Al entrar a este archivo hay que acegurarse que \"strict\": true,\r 7. Instalar el paquete Effect como dependencia\r     ```\r     npx install effect\r     ```\r 8. Crear la estructura incial del proyecto (arquitectura: carpetas y archivos del proyecto).\r     * Crear la carpeta `src`\r     * Crear el archivo `index.ts` dentro de la carpeta `src`\r 9. Probar si funcion Effect-ts en nuestro proyecto, es decir si la instalacion quedo correcta. \r     * Agregar el siguiente codigo en `src/index.ts`\r         ```ts\r         import { Effect, Console } from \"effect\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "effect": "^2.0.0-next.54"
+  }
+}
